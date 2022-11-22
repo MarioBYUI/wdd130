@@ -241,6 +241,111 @@ nav {
 }
      
 
+        
+#a {
+    color: #ccb598
+    
+ }
+ 
+ footer p {
+ color:#c5a47a 
+ }
+
+/* River CSS*/
+
+
+#grid00 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    padding: 10px;
+}
+
+#grid01 {
+    grid-column: 1/3;
+    grid-row: 1/2
+}
+
+#grid02 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#grid03 {
+    grid-column: 1/2;
+
+}
+
+#grid04 {
+grid-row: 2/4;
+grid-column: 2/4;
+border: 10px solid #d9c2a3;
+transition: transform .5s;
+box-shadow: 5px 5px 10px #6f7364;
+
+
+}
+
+
+#h1rivers {
+    color:#c5a47a;
+    text-align:center;
+    padding: 10px;
+
+}
+
+
+#h2rivers1 {
+    color:#c5a47a;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding: 5px;
+  
+}
+
+
+#h2rivers2 {
+    color:#c5a47a;
+    padding: 5px;
+
+}
+
+#h2rivers3 {
+    color:#c5a47a;
+    padding: 5px;
+
+}
+
+#river02img {
+    width: 100%;
+    box-shadow: 20px 20px 20px #c5a47a;
+    padding-top: 30px;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 18px;
+    
+}
+
+#firstimg {
+    display: block;
+    width: 100%;
+    box-shadow: 10px 10px 10px 10px #c5a47a;
+    padding-top: 1px;
+
+}
+
+#paddingp1 {
+    padding: 5px;
+}
+
+#paddingp2 {
+    padding: 5px;
+
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -283,13 +388,5 @@ nav {
     footer {
         margin-top: 25px;
     }
-}
-        
-#a {
-   color: #ccb598
-   
-}
 
-footer p {
-color:#d9c2a3
 }
