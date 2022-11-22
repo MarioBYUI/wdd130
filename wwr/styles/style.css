@@ -279,9 +279,9 @@ nav {
 #grid04 {
 grid-row: 2/4;
 grid-column: 2/4;
-border: 10px solid #d9c2a3;
-transition: transform .5s;
 box-shadow: 5px 5px 10px #6f7364;
+border: 10px solid #d9c2a3;
+
 
 
 }
@@ -320,6 +320,7 @@ box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
     box-shadow: 20px 20px 20px #c5a47a;
     padding-top: 30px;
+
 }
 
 body {
