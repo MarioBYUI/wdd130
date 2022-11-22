@@ -1,0 +1,33 @@
+header {
+    background-color: white;
+
+}
+body {
+    background-color: white;
+    width: 50%;
+align-content: center;
+
+}
+
+footer { 
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+    background-color: #002366;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+
+}
+
+h1 {
+    color: black;
+}
+
+#content {
+    width: 100%;
+}
+img {
+    width: 50%;
+}
