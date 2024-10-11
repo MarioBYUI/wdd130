@@ -61,6 +61,9 @@ h2 {
     color: var(--accent1-color);
 }
 
+.images-together {
+    color: var(--accent1-color);
+}
 footer { 
     text-decoration: none;
   }
