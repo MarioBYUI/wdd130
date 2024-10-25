@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact White Watter Rafting</title>
+    <meta name="description" content="Contact Page Info from the White Watter Rafting Company">
+    <meta name="author" content="Mario Heredia">
+    <link rel="stylesheet" href="rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/logo.png" alt="logo of the page">
+        <nav>
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="trips.html">Trips</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Company Information</h1>
+        <h2>Where to Find Us</h2>
+        <div class="company-info">
+            <p class="company-info1">One Street Number 01 City of Cities</p>
+            <p class="company-info2">Phone Number: 12-7946852</p>
+            <p class="company-info3">One Street Number 01 City of Cities</p>
+            <p class="company-info4">Email: rafing@rafting.com</p>
+        </div>
+        <div id="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111402.71596598133!2d-22.017246841400198!3d64.13339730349182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d674b9eedcedc3%3A0xec912ca230d26071!2sReikiavik%2C%20Islandia!5e0!3m2!1ses-419!2scl!4v1729645488104!5m2!1ses-419!2scl"
+                width="100%" height="350" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <img id="employee1" src="images/employee1.jpg">
+        <img id="employee2" src="images/employee2.jpg">
+        <img id="employee3" src="images/employee3.jpg">
+        <div class="form">
+            <form action="/submit" method="post">
+                <p class="formp">Please Enter the Following Information</p>
+                <label for="uname">Name:</label>
+                <input type="text" id="uname" name="uname"><br><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <p class="formp2">Purpose of the Message:</p>
+                <input type="radio" id="general" name="general" value="general-inquiry">
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="reservation" value="reservation-question">
+                <label for="femenino">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="suggestion" value="website-suggestion">
+                <label for="otro">Wesite Suggestion</label><br><br>
+                <label for="comentarios">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="checkbox" id="suscription" name="suscription" value="subscribe">
+                <label for="suscripcion">Please subscribe me to the monthly newsletter</label><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rafting Company Mario Heredia</p>
+        <p><a href="https://wireframe.cc/WX4Pp3">Wireframe</a></p>
+        <a href="https://facebook.com">
+            <img src="images/facebookicon.webp" alt="facebook icon">
+        </a>
+        <a href="https://x.com">
+            <img src="images/xicon.webp" alt="x icon">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagramlogo.webp" alt="instagram icon">
+        </a>
+    </footer>
+</body>
+
+</html>
