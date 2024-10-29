@@ -82,7 +82,7 @@ article p {
     align-items: center;
 }
 
-p{
+p, h4{
     color: var(--accent1-color);
 }
 
@@ -147,7 +147,7 @@ section img {
 
 /* } */
 
-h1 {
+h1, h2 {
     text-align: center;
     padding: 20px;
     background-color: var(--accent1-color);
@@ -168,7 +168,7 @@ h1 {
 
 #employee1 {
     margin-left: 10px;
-    margin-right: 14;
+    margin-right: 14px;
 }
 
 #employee2 {
@@ -245,6 +245,6 @@ button:hover {
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: -170px;
+    margin-left: -160px;
     margin-top: -450px;
 }
