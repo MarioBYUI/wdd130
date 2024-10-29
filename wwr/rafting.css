@@ -150,7 +150,7 @@ section img {
 h1 {
     text-align: center;
     padding: 20px;
-    background-color: rgba(63, 183, 212, 0.4);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     font-size: 40px;
 }
@@ -167,17 +167,17 @@ h1 {
 }
 
 #employee1 {
-    margin-left: 12px;
-    margin-right: 16px;
+    margin-left: 10px;
+    margin-right: 14;
 }
 
 #employee2 {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 10px;
+    margin-right: 14px;
 }
 
 #employee3 {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 form {
@@ -219,4 +219,32 @@ button {
 
 button:hover {
     background-color: var(--secondary-color);
+}
+
+
+.h1section {
+    margin-top: -73px;
+    padding-bottom: 70px ;
+}
+
+.display-flex-div {
+    display: flex;
+    padding: 20px;
+    display: flex;
+    background-color: var(--accent1-color);
+    height: 30px;
+    color: var(--accent1-color);
+    margin-bottom: 30px;
+    position: relative;
+    height: 300px
+}
+
+.display-grid {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: -170px;
+    margin-top: -450px;
 }
